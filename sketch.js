@@ -1,5 +1,5 @@
 // Copyright (c) 2018 ml5
-// 
+//
 // This software is released under the MIT License.
 // https://opensource.org/licenses/MIT
 
@@ -25,7 +25,7 @@ function setup() {
 
   // Create a new Style Transfer method with a defined style.
   // We give the video as the second argument
-  style = ml5.styleTransfer('models/fuchun', video, modelLoaded);
+  style = ml5.styleTransfer('models/provence', video, modelLoaded);
 }
 
 function draw(){
